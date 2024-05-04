@@ -32,8 +32,8 @@ public class Contador implements CommandLineRunner {
         while (opcao != 4) {
             System.out.println("\nEscolha uma opção más crie vagas antes de acessar a opções 2 ou 3.\n" +
                     "1 - Criar vagas\n" +
-                    "2 - Candidatos selecionados\n" +
-                    "3 - Retirar candidatos da lista de aprovado\n" +
+                    "2 - Ver vaga\n" +
+                    "3 - Cadastro e seleçãooo de cadidatos\n" +
                     "4 - Sair\n");
 
 
@@ -58,12 +58,11 @@ public class Contador implements CommandLineRunner {
                     try {
                     parametrosInvalidosException.getSelecionarCandidatos();
                     }catch (NullPointerException e) {
-                        System.out.println("Não tem vagas! Vá para opção 1 e crie  vagas!");
+                        System.out.println("Não tem vagas! Vá para opção 1 e crie uma vagas!");
                     }
                     break;
 
                 case 4:
-
                     System.out.println("Sair");
                     System.exit(0);
 
