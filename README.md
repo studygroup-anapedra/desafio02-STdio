@@ -39,6 +39,14 @@ O sistema deverá receber dois parâmetros via terminal que representarão dois 
 3. Dentro do projeto, crie a classe `ParametrosInvalidosException` que representará a exceção de negócio no sistema. 
 
  
+<h2>Sobre o sistema :</h2>
+
+<p>
+O sistema deverá permitir que se crie um processo seletivo de emprego onde se especifique, quantidade de vagas, salário máximo a ser negociado, idade mínima e idade máxima dos candidatos. O sistema deverá lançar uma exceção quando o parâmetro idade máxima for menor que o parâmetro mínimo(Parte que atende o requisito do desafio). O sistema deverá permitir que a vaga criada possa ser buscada com seus requisitos.
+O Sistema deverá permitir o cadastro de candidatos e terá que ser capaz de analisar se os candidatos atendem os requisitos da vaga, aprovando ou desaprovando os candidatos. O sistema deverá permitir a permanência do usuário no sistema até que este decida sair através da opção "sair" que o sistema disponibilizará.
+
+</p>
+ 
 <h2>Ferramentas e tecnologias utilizadas no desenvolvimento:</h2>
 
 
@@ -68,6 +76,17 @@ O sistema deverá receber dois parâmetros via terminal que representarão dois 
 
 
 <h2>Fontes de pesquisa e cursos relacionados:</h2>
+
+<p >
+<a href="https://www.youtube.com/watch?v=wdavwJM6vaY">🔗 CFBCursos</a>
+ </p>
+
+
+
+<p >
+<a href="https://www.youtube.com/watch?v=ld2C4GcAtsg">🔗 Loeane Groner</a>
+ </p>
+
 
 <p >
 <a href="https://programadetestesequalidade.club.hotmart.com/public/user-certificate/894faa62-84da-4540-a6b9-70203909ddaf/_">🔗 Jl/Tests&Qualidade</a>
@@ -126,18 +145,15 @@ O sistema deverá receber dois parâmetros via terminal que representarão dois 
 <p>Ana Lúcia N. Lopes de Santana</P>
 
 <h2>Requisito atendidos: </h2>
-<p></P>
+<p>Todos</P>
 
-<h2>Maior desafio do projeto: </h2>
+<h2>O que falta implementar no projeto: </h2>
 <p>
-
+  As fucionalidades de guardar e listar cadidatos aprovados 
 </P>
 
 <h2>Maior aprendizado:</h2>
-<p></P>
-
-<h2>Principal utilidade do aprendizado adquirido nesse projeto:</h2>
-<p><P>
+<p>O quanto é importante revisitar as bases</P>
 
 <h2>Próximo desafio extra dio:</h2>
 
